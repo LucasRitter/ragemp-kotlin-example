@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RageMP-Kotlin-Client" type="kotlin.js">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/RageMP-Kotlin-Client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
