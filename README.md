@@ -1,3 +1,4 @@
+![Imgur](https://i.imgur.com/rBqAzSN.png)
 # RageMP + Kotlin = ❤
 
 This is an example project that can also be used as
