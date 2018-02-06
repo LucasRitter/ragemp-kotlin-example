@@ -2,7 +2,6 @@ package design.lucasritter.example
 
 // Make sure to add this line whenever you are working with RageMP stuff.
 import mp.rage.*
-import kotlin.js.Date
 
 public class Example {
     constructor() {
@@ -11,8 +10,13 @@ public class Example {
         mp.events.add("render", { this.handleRenderEvent() })
 
         // We should also create a car so we can test the speedometer.
-        mp.vehicles.new(mp.game.joaat("t20"), mp.players.local.position, MpVehicleOptions(numberPlate = "GitHub"))
-
+        var veh = mp.vehicles.new(
+                mp.game.joaat("italigtb"),
+                mp.players.local.position,
+                MpVehicleOptions(
+                        numberPlate = "Kotlin",
+                        color = arrayOf(arrayOf(220, 52, 40), arrayOf(220, 52, 40))
+                ))
         // And here we push an update to the Discord client.
         mp.discord.update("Example Server", "Driving around")
     }
